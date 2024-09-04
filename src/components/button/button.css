@@ -1,0 +1,9 @@
+.buttonLayout button {
+    border-radius: 10px;
+    border: none;
+    width: 168px;
+    height: 80px;
+    background: var(--action-primary);
+    margin-top: 40px;
+    cursor: pointer;
+}

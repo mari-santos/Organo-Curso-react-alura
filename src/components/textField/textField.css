@@ -1,0 +1,20 @@
+@import "/src/styles/styles.css";
+
+
+.textfield {
+    margin:24px 0;
+}
+
+.textfield label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.textfield input {
+    background-color: var(--common-white);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    border: none;
+    padding: 24px;
+    box-sizing: border-box;
+}

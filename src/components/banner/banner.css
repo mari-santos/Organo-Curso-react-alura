@@ -1,0 +1,10 @@
+@import "/src/styles/styles.css";
+
+.banner {
+    background-color: var(--action-primary);
+    text-align: center;
+}
+
+.banner img {
+    max-width: 100%;
+}

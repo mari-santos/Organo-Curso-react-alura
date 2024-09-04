@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Montserrat:wght@400;600;700&display=swap');
+
+
+:root {
+    /* Base Colors */
+    --black: #000000;
+    --white: #ffffff;
+    --grey: #f2f2f2;
+
+    --purple: #6278F7;
+
+    --blue-10: #82cffa;
+    --blue-20: #E8F8FF;
+
+    --green-10: #95FFD4;
+    --green-20: #57C278;
+    --green-30: #A6D157;
+    --green-40: #D9F7E9;
+    --green-50: #F0F8E2;
+
+    --salmon-10: #E06B69;
+    --salmon-20: #FDE7E8;
+
+    --orange-10: #FF8A29;
+    --orange-20: #FFEEDF;
+
+    --yellow-10: #FFBA05;
+    --yellow-20: #FFF5D9;
+
+    --pink-10: #DB6EBF;
+    --pink-20: #FAE9F5;
+
+    /* Palette - Common */
+    --common-black: var(--black);
+    --common-white: var(--white);
+
+    /* Cards Destaque */
+    --cards-destaque-programacao: var(--green-20);
+    --cards-destaque-front-end: var(--blue-10);
+    --cards-destaque-data-science: var(--green-30);
+    --cards-destaque-devops: var(--salmon-10);
+    --cards-destaque-ux-design: var(--pink-10);
+    --cards-destaque-mobile: var(--yellow-10);
+    --cards-destaque-inovacao-gestao: var(--orange-10);
+
+    /* Cards Fundos */
+    --cards-fundos-programacao: var(--green-40);
+    --cards-fundos-front-end: var(--blue-20);
+    --cards-fundos-data-science: var(--green-50);
+    --cards-fundos-devops: var(--salmon-20);
+    --cards-fundos-ux-design: var(--pink-20);
+    --cards-fundos-mobile: var(--yellow-20);
+    --cards-fundos-inovacao-gestao: var(--orange-20);
+    --cards-fundos-forms: var(--grey);
+
+    /* Action */
+    --action-primary: var(--purple);
+    --action-secondary: var(--green-10);
+
+    /* Text */
+    --text-primary: var(--purple);
+    --text-secondary: var(--black);
+}
+
+/* Fonte Primária */
+.primary-font {
+    font-family: 'Prata', serif;
+}
+
+/* Fonte Secundária */
+.secondary-font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilos específicos */
+.h1 {
+    font-family: 'Prata', serif;
+    font-size: 4.5rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+}
+
+.title {
+    font-family: 'Prata', serif;
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+}
+
+.subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-style: normal;
+    line-height: normal;
+}
+
+.body1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    color: var(--common-white);
+
+    &:hover {
+        color: var(--green-10);
+    }
+}
+
+.caption {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+}
